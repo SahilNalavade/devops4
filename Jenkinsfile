@@ -9,7 +9,7 @@ pipeline {
 
         stage('REPO Cloning'){
             steps {
-                bat 'xcopy /S "*" "C:/xampp/htdocs/newxampp" /Y'   
+                bat 'xcopy /S "*" "C:/xampp/htdocs/exp4" /Y'   
             }
         }
 
